@@ -16,9 +16,9 @@ window.onload = () => {
 // 2 - This function is called when a user clicks on the button in the HTML. 
 // Can you make the text "hello" log to the console?
 const sayHello = () => {
-  return "Hello!"
+  return console.log("Hello!")
+  
 }
-
 
 
 // 3 - In the Chrome Console type out the name of each of these variables 
@@ -35,6 +35,8 @@ const object1 = {
 }
 
 // 3.5 - Can you add statements below to log to the console each of the variables above?
+
+console.log("array 1: " + arr1, "number 1: " + num1)
 
 
 // This variable will hold text values for us
@@ -55,6 +57,8 @@ const sayHi = (data) => {
 
   return console.log(greetingString)
 }
+
+// my questions: are "val" and "data" the same here? If so, why change the variable name?
 
 
 
